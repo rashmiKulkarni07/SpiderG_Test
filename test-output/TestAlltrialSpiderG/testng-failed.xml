@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestAlltrialSpiderG]">
+  <test name="First(failed)">
+    <classes>
+      <class name="SpiderG.Login_Test">
+        <methods>
+          <include name="Login"/>
+          <include name="beforeTest"/>
+          <include name="setUP"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- SpiderG.Login_Test -->
+      <class name="SpiderG.PurchaseOrder_Test">
+        <methods>
+          <include name="PurchaseOrder"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="POTabClick"/>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- SpiderG.PurchaseOrder_Test -->
+      <class name="SpiderG.Walkthrough_Test">
+        <methods>
+          <include name="walkthrough"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- SpiderG.Walkthrough_Test -->
+    </classes>
+  </test> <!-- First(failed) -->
+</suite> <!-- Failed suite [TestAlltrialSpiderG] -->

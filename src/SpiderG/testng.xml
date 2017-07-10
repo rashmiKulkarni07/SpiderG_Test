@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAlltrialSpiderG">
+
+  <test name="First">
+	<classes> .
+	     <class name="SpiderG.Walkthrough_Test">     </class>
+         <class name="SpiderG.Login_Test">           </class>
+         <class name="SpiderG.SalesInvoice_Test">    
+            <methods>
+                <include name="SalesAndPurchase"   />
+                <include name="AddItems"           />   
+                <include name="AdvancePayment"     />   
+                <include name="TermsAndConditions" />  
+                <include name="saveInvoice"        />  
+                <include name="OpenSavedInvoiceFromDraft"/>
+                <include name="SendInvoice"/>
+                <include name="ExportInvoice"/>
+            </methods>
+            </class>
+          <class name= "SpiderG.PurchaseOrder_Test">     
+              <methods>
+                <include name="PurchaseOrder"   />
+                <include name="POTabClick"      />   
+                </methods>
+          </class>
+         				    	  
+	</classes>
+  </test>   
+</suite>
+
+   
+
+ 

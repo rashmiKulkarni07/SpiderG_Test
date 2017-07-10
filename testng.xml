@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="SpiderG.Base_Class"/>
+      <class name="SpiderG.Logout_Test"/>
+      <class name="SpiderG.SalesAndPurchase_Test"/>
+      <class name="SpiderG.Login_Test"/>
+      <class name="SpiderG.Walkthrough_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
