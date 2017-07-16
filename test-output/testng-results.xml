@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="1" ignored="6" total="18" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="TestAlltrialSpiderG" duration-ms="290701" started-at="2017-07-10T12:45:33Z" finished-at="2017-07-10T12:50:24Z">
+  <suite name="TestAlltrialSpiderG" duration-ms="308189" started-at="2017-07-12T07:47:14Z" finished-at="2017-07-12T07:52:22Z">
     <groups>
     </groups>
-    <test name="First" duration-ms="290701" started-at="2017-07-10T12:45:33Z" finished-at="2017-07-10T12:50:24Z">
+    <test name="First" duration-ms="308189" started-at="2017-07-12T07:47:14Z" finished-at="2017-07-12T07:52:22Z">
       <class name="SpiderG.Login_Test">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SpiderG.Login_Test@464bee09]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-07-10T18:15:33Z" finished-at="2017-07-10T18:15:33Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SpiderG.Login_Test@464bee09]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-07-12T13:17:14Z" finished-at="2017-07-12T13:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SpiderG.PurchaseOrder_Test@13deb50e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-07-10T18:15:33Z" finished-at="2017-07-10T18:15:33Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SpiderG.PurchaseOrder_Test@13deb50e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-07-12T13:17:14Z" finished-at="2017-07-12T13:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-07-10T18:15:33Z" finished-at="2017-07-10T18:15:33Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-07-12T13:17:14Z" finished-at="2017-07-12T13:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SpiderG.Walkthrough_Test@6eebc39e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-07-10T18:15:33Z" finished-at="2017-07-10T18:15:33Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SpiderG.Walkthrough_Test@6eebc39e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-07-12T13:17:14Z" finished-at="2017-07-12T13:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:SpiderG.Login_Test@464bee09]" name="Login" duration-ms="21146" started-at="2017-07-10T18:15:50Z" data-provider="Authentication" depends-on-methods="SpiderG.Walkthrough_Test.walkthrough" finished-at="2017-07-10T18:16:11Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:SpiderG.Login_Test@464bee09]" name="Login" duration-ms="21694" started-at="2017-07-12T13:17:30Z" data-provider="Authentication" depends-on-methods="SpiderG.Walkthrough_Test.walkthrough" finished-at="2017-07-12T13:17:52Z">
           <params>
             <param index="0">
               <value>
@@ -39,120 +39,120 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.Login_Test@464bee09]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-10T18:16:11Z" finished-at="2017-07-10T18:16:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.Login_Test@464bee09]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-12T13:17:52Z" finished-at="2017-07-12T13:17:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:SpiderG.PurchaseOrder_Test@13deb50e]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-07-10T18:20:24Z" finished-at="2017-07-10T18:20:24Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:SpiderG.PurchaseOrder_Test@13deb50e]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-07-12T13:22:22Z" finished-at="2017-07-12T13:22:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:SpiderG.Login_Test@464bee09]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-07-10T18:20:24Z" finished-at="2017-07-10T18:20:24Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:SpiderG.Login_Test@464bee09]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-07-12T13:22:22Z" finished-at="2017-07-12T13:22:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-07-10T18:20:24Z" finished-at="2017-07-10T18:20:24Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-07-12T13:22:22Z" finished-at="2017-07-12T13:22:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:SpiderG.Walkthrough_Test@6eebc39e]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-07-10T18:20:24Z" finished-at="2017-07-10T18:20:24Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:SpiderG.Walkthrough_Test@6eebc39e]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-07-12T13:22:22Z" finished-at="2017-07-12T13:22:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- SpiderG.Login_Test -->
       <class name="SpiderG.SalesInvoice_Test">
-        <test-method status="PASS" signature="SalesAndPurchase()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="SalesAndPurchase" duration-ms="90762" started-at="2017-07-10T18:16:11Z" depends-on-methods="SpiderG.Login_Test.Login" finished-at="2017-07-10T18:17:42Z">
+        <test-method status="PASS" signature="SalesAndPurchase()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="SalesAndPurchase" duration-ms="104512" started-at="2017-07-12T13:17:52Z" depends-on-methods="SpiderG.Login_Test.Login" finished-at="2017-07-12T13:19:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SalesAndPurchase -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-10T18:17:42Z" finished-at="2017-07-10T18:17:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-12T13:19:37Z" finished-at="2017-07-12T13:19:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="AddItems()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="AddItems" duration-ms="35167" started-at="2017-07-10T18:17:42Z" depends-on-methods="SpiderG.SalesInvoice_Test.SalesAndPurchase" finished-at="2017-07-10T18:18:17Z">
+        <test-method status="PASS" signature="AddItems()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="AddItems" duration-ms="35678" started-at="2017-07-12T13:19:37Z" depends-on-methods="SpiderG.SalesInvoice_Test.SalesAndPurchase" finished-at="2017-07-12T13:20:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddItems -->
-        <test-method status="PASS" signature="AdvancePayment()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="AdvancePayment" duration-ms="12183" started-at="2017-07-10T18:18:17Z" depends-on-methods="SpiderG.SalesInvoice_Test.SalesAndPurchase" finished-at="2017-07-10T18:18:29Z">
+        <test-method status="PASS" signature="AdvancePayment()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="AdvancePayment" duration-ms="12497" started-at="2017-07-12T13:20:12Z" depends-on-methods="SpiderG.SalesInvoice_Test.SalesAndPurchase" finished-at="2017-07-12T13:20:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AdvancePayment -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-10T18:18:17Z" finished-at="2017-07-10T18:18:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-12T13:20:12Z" finished-at="2017-07-12T13:20:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-10T18:18:29Z" finished-at="2017-07-10T18:18:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-12T13:20:25Z" finished-at="2017-07-12T13:20:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="TermsAndConditions()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="TermsAndConditions" duration-ms="32097" started-at="2017-07-10T18:18:29Z" depends-on-methods="SpiderG.SalesInvoice_Test.SalesAndPurchase" finished-at="2017-07-10T18:19:01Z">
+        <test-method status="PASS" signature="TermsAndConditions()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="TermsAndConditions" duration-ms="30453" started-at="2017-07-12T13:20:25Z" depends-on-methods="SpiderG.SalesInvoice_Test.SalesAndPurchase" finished-at="2017-07-12T13:20:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TermsAndConditions -->
-        <test-method status="PASS" signature="saveInvoice()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="saveInvoice" duration-ms="7725" started-at="2017-07-10T18:19:01Z" depends-on-methods="SpiderG.SalesInvoice_Test.SalesAndPurchase" finished-at="2017-07-10T18:19:09Z">
+        <test-method status="PASS" signature="saveInvoice()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="saveInvoice" duration-ms="11138" started-at="2017-07-12T13:20:55Z" depends-on-methods="SpiderG.SalesInvoice_Test.SalesAndPurchase" finished-at="2017-07-12T13:21:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveInvoice -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-10T18:19:01Z" finished-at="2017-07-10T18:19:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-12T13:20:55Z" finished-at="2017-07-12T13:20:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="OpenSavedInvoiceFromDraft()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="OpenSavedInvoiceFromDraft" duration-ms="2243" started-at="2017-07-10T18:19:09Z" depends-on-methods="SpiderG.SalesInvoice_Test.saveInvoice" finished-at="2017-07-10T18:19:11Z">
+        <test-method status="PASS" signature="OpenSavedInvoiceFromDraft()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="OpenSavedInvoiceFromDraft" duration-ms="2791" started-at="2017-07-12T13:21:06Z" depends-on-methods="SpiderG.SalesInvoice_Test.saveInvoice" finished-at="2017-07-12T13:21:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenSavedInvoiceFromDraft -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-10T18:19:09Z" finished-at="2017-07-10T18:19:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-12T13:21:06Z" finished-at="2017-07-12T13:21:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-10T18:19:11Z" finished-at="2017-07-10T18:19:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-12T13:21:09Z" finished-at="2017-07-12T13:21:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="SendInvoice()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="SendInvoice" duration-ms="1357" started-at="2017-07-10T18:19:11Z" depends-on-methods="SpiderG.SalesInvoice_Test.OpenSavedInvoiceFromDraft" finished-at="2017-07-10T18:19:13Z">
+        <test-method status="PASS" signature="SendInvoice()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="SendInvoice" duration-ms="1148" started-at="2017-07-12T13:21:09Z" depends-on-methods="SpiderG.SalesInvoice_Test.OpenSavedInvoiceFromDraft" finished-at="2017-07-12T13:21:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SendInvoice -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-10T18:19:13Z" finished-at="2017-07-10T18:19:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-12T13:21:10Z" finished-at="2017-07-12T13:21:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="ExportInvoice()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="ExportInvoice" duration-ms="1511" started-at="2017-07-10T18:19:13Z" depends-on-methods="SpiderG.SalesInvoice_Test.OpenSavedInvoiceFromDraft" finished-at="2017-07-10T18:19:14Z">
+        <test-method status="PASS" signature="ExportInvoice()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="ExportInvoice" duration-ms="2745" started-at="2017-07-12T13:21:10Z" depends-on-methods="SpiderG.SalesInvoice_Test.OpenSavedInvoiceFromDraft" finished-at="2017-07-12T13:21:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExportInvoice -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-10T18:19:14Z" finished-at="2017-07-10T18:19:14Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.SalesInvoice_Test@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-12T13:21:13Z" finished-at="2017-07-12T13:21:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SpiderG.SalesInvoice_Test -->
       <class name="SpiderG.PurchaseOrder_Test">
-        <test-method status="PASS" signature="PurchaseOrder()[pri:0, instance:SpiderG.PurchaseOrder_Test@13deb50e]" name="PurchaseOrder" duration-ms="7727" started-at="2017-07-10T18:19:14Z" depends-on-methods="SpiderG.Login_Test.Login" finished-at="2017-07-10T18:19:22Z">
+        <test-method status="PASS" signature="PurchaseOrder()[pri:0, instance:SpiderG.PurchaseOrder_Test@13deb50e]" name="PurchaseOrder" duration-ms="7527" started-at="2017-07-12T13:21:13Z" depends-on-methods="SpiderG.Login_Test.Login" finished-at="2017-07-12T13:21:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PurchaseOrder -->
-        <test-method status="FAIL" signature="POTabClick()[pri:0, instance:SpiderG.PurchaseOrder_Test@13deb50e]" name="POTabClick" duration-ms="62183" started-at="2017-07-10T18:19:22Z" depends-on-methods="SpiderG.PurchaseOrder_Test.PurchaseOrder" finished-at="2017-07-10T18:20:24Z">
+        <test-method status="FAIL" signature="POTabClick()[pri:0, instance:SpiderG.PurchaseOrder_Test@13deb50e]" name="POTabClick" duration-ms="61889" started-at="2017-07-12T13:21:21Z" depends-on-methods="SpiderG.PurchaseOrder_Test.PurchaseOrder" finished-at="2017-07-12T13:22:22Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 60.47 seconds
+Command duration or timeout: 60.45 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'LAPTOP-0MFL2V6R', ip: '192.168.1.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities [{app=C:\Users\rashm\Desktop\version_41.apk, appPackage=com.gladiris.spiderg.android, networkConnectionEnabled=true, warnings={}, app-activity=com.gladiris.spiderg.android.SpiderGIntroActivity, databaseEnabled=false, deviceName=3a213a5, platform=LINUX, desired={app=C:\Users\rashm\Desktop\version_41.apk, appPackage=com.gladiris.spiderg.android, BROWSER_NAME=Android, platformVersion=4.3, app-activity=com.gladiris.spiderg.android.SpiderGIntroActivity, platformName=Android, deviceName=}, platformVersion=4.4.4, BROWSER_NAME=Android, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
-Session ID: 52c93e1c-5adb-4411-8c6b-68d977d1e679
+Session ID: 2921e459-c5fe-482b-bc1f-952c7c9f7326
 *** Element info: {Using=xpath, value=//android.widget.ImageButton[@bounds='[588,1044][720,1184]']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 60.47 seconds
+Command duration or timeout: 60.45 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'LAPTOP-0MFL2V6R', ip: '192.168.1.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities [{app=C:\Users\rashm\Desktop\version_41.apk, appPackage=com.gladiris.spiderg.android, networkConnectionEnabled=true, warnings={}, app-activity=com.gladiris.spiderg.android.SpiderGIntroActivity, databaseEnabled=false, deviceName=3a213a5, platform=LINUX, desired={app=C:\Users\rashm\Desktop\version_41.apk, appPackage=com.gladiris.spiderg.android, BROWSER_NAME=Android, platformVersion=4.3, app-activity=com.gladiris.spiderg.android.SpiderGIntroActivity, platformName=Android, deviceName=}, platformVersion=4.4.4, BROWSER_NAME=Android, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
-Session ID: 52c93e1c-5adb-4411-8c6b-68d977d1e679
+Session ID: 2921e459-c5fe-482b-bc1f-952c7c9f7326
 *** Element info: {Using=xpath, value=//android.widget.ImageButton[@bounds='[588,1044][720,1184]']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -177,7 +177,7 @@ Session ID: 52c93e1c-5adb-4411-8c6b-68d977d1e679
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at SpiderG.PurchaseOrder_Test.POTabClick(PurchaseOrder_Test.java:63)
+	at SpiderG.PurchaseOrder_Test.POTabClick(PurchaseOrder_Test.java:61)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -209,29 +209,29 @@ Session ID: 52c93e1c-5adb-4411-8c6b-68d977d1e679
           <reporter-output>
           </reporter-output>
         </test-method> <!-- POTabClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.PurchaseOrder_Test@13deb50e]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-10T18:19:22Z" finished-at="2017-07-10T18:19:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.PurchaseOrder_Test@13deb50e]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-12T13:21:21Z" finished-at="2017-07-12T13:21:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.PurchaseOrder_Test@13deb50e]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-10T18:20:24Z" finished-at="2017-07-10T18:20:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.PurchaseOrder_Test@13deb50e]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-12T13:22:22Z" finished-at="2017-07-12T13:22:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SpiderG.PurchaseOrder_Test -->
       <class name="SpiderG.Walkthrough_Test">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:SpiderG.Walkthrough_Test@6eebc39e]" name="setUP" is-config="true" duration-ms="17459" started-at="2017-07-10T18:15:16Z" finished-at="2017-07-10T18:15:33Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:SpiderG.Walkthrough_Test@6eebc39e]" name="setUP" is-config="true" duration-ms="36721" started-at="2017-07-12T13:16:38Z" finished-at="2017-07-12T13:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="walkthrough()[pri:0, instance:SpiderG.Walkthrough_Test@6eebc39e]" name="walkthrough" duration-ms="15691" started-at="2017-07-10T18:15:33Z" finished-at="2017-07-10T18:15:49Z">
+        <test-method status="PASS" signature="walkthrough()[pri:0, instance:SpiderG.Walkthrough_Test@6eebc39e]" name="walkthrough" duration-ms="15038" started-at="2017-07-12T13:17:14Z" finished-at="2017-07-12T13:17:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- walkthrough -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.Walkthrough_Test@6eebc39e]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-10T18:15:49Z" finished-at="2017-07-10T18:15:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.Walkthrough_Test@6eebc39e]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-12T13:17:29Z" finished-at="2017-07-12T13:17:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.Walkthrough_Test@6eebc39e]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-10T18:20:24Z" finished-at="2017-07-10T18:20:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SpiderG.Walkthrough_Test@6eebc39e]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-12T13:22:23Z" finished-at="2017-07-12T13:22:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

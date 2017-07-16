@@ -37,7 +37,8 @@ public class PurchaseOrder_Test extends Base_Class {
 			  	
 	  System.out.println("Nevigation drawer is open");
 	  
-	 // Thread.sleep(1000);
+
+	  // Thread.sleep(1000);
 	  Utility.captureScreenshot(driver, "Navigation Drawer");
 	  WebElement SaleAndPurchase=  driver.findElement(By.xpath("//android.support.v7.widget.LinearLayoutCompat[@bounds='[0,482][560,578]']"));
 	  //SaleAndPurchase.click();
@@ -61,11 +62,12 @@ public class PurchaseOrder_Test extends Base_Class {
 	  FABButtonPO.click();
 	  System.out.println("FAB button is clicked");
 	  
+	  
   }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
   
   @BeforeTest
   public void beforeTest() {
-	  
+	  System.out.println("Before test");
 	  
   }
 
