@@ -3,7 +3,7 @@
 <suite name="TestAlltrialSpiderG">
 
   <test name="First">
-	<classes> .
+	<classes> 
 	     <class name="SpiderG.Walkthrough_Test">     </class>
          <class name="SpiderG.Login_Test">           </class>
          <class name="SpiderG.SalesInvoice_Test">    
@@ -23,8 +23,7 @@
                 <include name="PurchaseOrder"   />
                 <include name="POTabClick"      />   
                 </methods>
-          </class>
-         				    	  
+          </class>   				    	  
 	</classes>
   </test>   
 </suite>
